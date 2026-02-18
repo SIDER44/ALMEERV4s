@@ -1,0 +1,27 @@
+# Bot Configuration
+BOT_NAME=ALMEERV4
+OWNER_NUMBER=254720313769
+PREFIX=.
+SESSION_NAME=session
+MODE=public
+AUTO_READ=true
+AUTO_TYPING=true
+ANTI_LINK=true
+ANTI_DELETE=true
+WELCOME_MSG=true
+GOODBYE_MSG=true
+NSFW=false
+PREMIUM_MODE=false
+
+# API Keys (Get from respective websites)
+OPENAI_API_KEY=sk-your-key
+WEATHER_API_KEY=your-key
+REMOVEBG_API_KEY=your-key
+BRAINLY_EMAIL=your-email
+BRAINLY_PASSWORD=your-password
+
+# Database
+DATABASE_TYPE=json
+
+# Server
+PORT=3000
