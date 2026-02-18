@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: almeerv4
+    runtime: node
+    repo: https://github.com/SIDER44/ALMEERV4
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: BOT_NAME
+        value: ALMEERV4
+      - key: OWNER_NUMBER
+        value: 254XXXXXXXXX
+      - key: PREFIX
+        value: .
+      - key: SESSION_NAME
+        value: session
+      - key: MODE
+        value: public
+      - key: AUTO_READ
+        value: true
+      - key: AUTO_TYPING
+        value: true
+      - key: ANTI_LINK
+        value: true
+      - key: WELCOME_MSG
+        value: true
+      - key: NSFW
+        value: false
+      - key: PORT
+        value: 3000
